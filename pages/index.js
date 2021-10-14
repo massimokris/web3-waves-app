@@ -214,7 +214,10 @@ export default function Home() {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://massi-eth.vercel.app/" />
-        <meta property="og:image" content="/og.png" />
+        <meta
+          property="og:image"
+          content="https://massi-eth.vercel.app/og.png"
+        />
         <meta property="og:site_name" content="Massi.eth" />
 
         <meta name="twitter:card" content="summary_large_image" />
@@ -228,7 +231,10 @@ export default function Home() {
           content="A personal Dapp project to have fun building stuff on internet"
         />
         <meta name="twitter:creator" content="@Massimokris" />
-        <meta name="twitter:image:src" content="/og.png" />
+        <meta
+          name="twitter:image:src"
+          content="https://massi-eth.vercel.app/og.png"
+        />
         <meta name="twitter:domain" content="massi-eth.vercel.app" />
       </Head>
       <main className="flex flex-col items-center justify-center w-full text-center">
