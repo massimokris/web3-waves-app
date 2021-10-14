@@ -204,6 +204,32 @@ export default function Home() {
       <Head>
         <title>Massi.eth</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta
+          property="og:description"
+          content="A personal Dapp project to have fun building stuff on internet"
+        />
+        <meta
+          property="og:title"
+          content="Massi.eth, hit a message in the Web3"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://massi-eth.vercel.app/" />
+        <meta property="og:image" content="/og.png" />
+        <meta property="og:site_name" content="Massi.eth" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@Massimokris" />
+        <meta
+          name="twitter:title"
+          content="Massi.eth, hit a message in the Web3"
+        />
+        <meta
+          name="twitter:description"
+          content="A personal Dapp project to have fun building stuff on internet"
+        />
+        <meta name="twitter:creator" content="@Massimokris" />
+        <meta name="twitter:image:src" content="/og.png" />
+        <meta name="twitter:domain" content="massi-eth.vercel.app" />
       </Head>
       <main className="flex flex-col items-center justify-center w-full text-center">
         <h1 className="text-4xl font-bold mb-0 sm:mt-8 text-white">
