@@ -26,7 +26,7 @@ export default function Home() {
       const { ethereum } = window;
 
       if (!ethereum) {
-        console.log("Make sure you have metamask!");
+        console.log("Make sure you have Metamask installed!");
         return;
       } else {
         console.log("We have the ethereum object", ethereum);
@@ -136,6 +136,7 @@ export default function Home() {
   };
 
   const wave = async () => {
+    !currentAccount && alert("Connect your MetaMask wallet to send a message!");
     try {
       const { ethereum } = window;
 
